@@ -1,0 +1,13 @@
+body {
+  position: relative;
+  min-width: 100vw;
+}
+
+main {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
