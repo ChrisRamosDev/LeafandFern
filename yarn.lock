@@ -3534,21 +3534,6 @@ clone-response@1.0.2, clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-cloudinary-core@^2.10.2:
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.11.3.tgz#1440f61c6280485094aac87021b7e10f746dc69e"
-  integrity sha512-ZRnpjSgvx+LbSf+aEz5NKzxDB4Z0436aY/0BSDa90kAHiwAyd84VyEi95I74SE80e15Ri9t5S2xtksTXpzk9Xw==
-
-cloudinary@^1.11.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.23.0.tgz#27885567cf698e4ed5f5cc8d57974cb4b16db52b"
-  integrity sha512-akOxzroonvwWkuSVq7BI50nYpZPRXc5DbQIYETCVeKX9ZoToH2Gvc3MdUH63UtKiszuGYE51q2B+jQsJkBp2AQ==
-  dependencies:
-    cloudinary-core "^2.10.2"
-    core-js "3.6.5"
-    lodash "^4.17.11"
-    q "^1.5.1"
-
 coa@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/coa/-/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
@@ -3884,11 +3869,6 @@ core-js-pure@^3.0.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.7.0.tgz#28a57c861d5698e053f0ff36905f7a3301b4191e"
   integrity sha512-EZD2ckZysv8MMt4J6HSvS9K2GdtlZtdBncKAmF9lr2n0c9dJUaUN88PSTjvgwCgQPWKTkERXITgS6JJRAnljtg==
-
-core-js@3.6.5:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
-  integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
 
 core-js@^2.4.0:
   version "2.6.11"
@@ -6042,7 +6022,7 @@ gatsby-graphiql-explorer@^0.6.0:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-gatsby-image@^2.5.0:
+gatsby-image@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.6.0.tgz#0d0b36c64cd718f21ae1d8ee42ed6faac2c1c2d1"
   integrity sha512-BFQ3iGw6mDYCEAQWTAUf+1YDc8FnvEJUqQtan+lTbfh+nb2zlSmhqPn2Pr+T3GnIU/jupmX5vITR5CpFLSfDyg==
@@ -6104,14 +6084,7 @@ gatsby-plugin-page-creator@^2.5.0:
     graphql "^14.7.0"
     lodash "^4.17.20"
 
-gatsby-plugin-react-helmet@^3.4.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.5.0.tgz#82ffa4a836a7550c8be339f0a4bcfdf598ab32f5"
-  integrity sha512-/gv+CpW1/F+r6e8hH0XTgvycAq0/yfkOukTCIh1p6a4j9ivPonyZ9zAJgRUiW2IuxCFOeUGWJu2mTTuIpbwkWg==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-
-gatsby-plugin-sharp@^2.8.0:
+gatsby-plugin-sharp@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.9.0.tgz#3114b82fa01089fdd323f6e8c9ce9b83819e1ac6"
   integrity sha512-jD/RbubKS0vrk82R5ebY8BovKgmCy8oLjaARtoJPm/yyCqvI0iFPmqop7S1omNQqL9728JxKgEEnC4kMMaxyyg==
@@ -6233,15 +6206,7 @@ gatsby-recipes@^0.4.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-cloudinary@^0.1.14:
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/gatsby-source-cloudinary/-/gatsby-source-cloudinary-0.1.14.tgz#d4db9cc3dcde86407217b69bb855585acf1004db"
-  integrity sha512-qL+ShxmekYEnj3RoEW86v6fYPuDK44nLYVznNjQ8WefAVc+1w4Yf6wmHKM6DQevs3t2ABnFGYaG+tAQzJT/Wfg==
-  dependencies:
-    cloudinary "^1.11.0"
-    lodash.snakecase "^4.1.1"
-
-gatsby-source-filesystem@^2.5.0, gatsby-source-filesystem@^2.6.1:
+gatsby-source-filesystem@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.6.1.tgz#28529fadbcbdd61a4257c8561200bfc1a8d5556c"
   integrity sha512-XQvQewST3uH8bDjyLMv5srqc0Hh1eIzVkPLMXpcWoszlUX/MSCdY8+boZjLAx8YK0O65MLCr66sV9qFDBldjAw==
@@ -8457,11 +8422,6 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
-
-lodash.snakecase@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
-  integrity sha1-OdcUo1NXFHg3rv1ktdy7Fr7Nj40=
 
 lodash.toarray@^4.4.0:
   version "4.4.0"
@@ -10730,7 +10690,7 @@ pupa@^2.0.1:
   dependencies:
     escape-goat "^2.0.0"
 
-q@^1.1.2, q@^1.5.1:
+q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
@@ -10885,21 +10845,6 @@ react-error-overlay@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
   integrity sha512-XzgvowFrwDo6TWcpJ/WTiarb9UI6lhA4PMzS7n1joK3sHfBBBOQHUc0U4u57D6DWO9vHv6lVSWx2Q/Ymfyv4hw==
 
-react-fast-compare@^3.1.1:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
-  integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
-
-react-helmet@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
-  integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
-  dependencies:
-    object-assign "^4.1.1"
-    prop-types "^15.7.2"
-    react-fast-compare "^3.1.1"
-    react-side-effect "^2.1.0"
-
 react-hot-loader@^4.12.21:
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.13.0.tgz#c27e9408581c2a678f5316e69c061b226dc6a202"
@@ -10928,11 +10873,6 @@ react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
-
-react-side-effect@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
-  integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
 react-typography@^0.16.19:
   version "0.16.19"

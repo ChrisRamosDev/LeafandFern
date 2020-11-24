@@ -3,11 +3,39 @@ body {
   min-width: 100vw;
 }
 
-main {
-  padding: 1rem;
-}
-
 .container {
   max-width: 1500px;
   margin: 0 auto;
+}
+
+.bannerH3 {
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  line-height: 1.85rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.hero {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.hero::after {
+  content: "SALE! SALE! SALE!";
+  position: absolute;
+  color: #fff;
+  background-color: rgba(0, 0, 0.3);
+  font-size: clamp(18px, 1.25rem, 30px);
+  line-height: 1.5rem;
+  text-align: center;
+  width: 42.5%;
+  max-height: 55px;
+  bottom: 30px;
+  right: 20px;
+}
+
+li {
+  margin: 0;
 }

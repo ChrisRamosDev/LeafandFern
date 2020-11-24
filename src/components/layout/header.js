@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import logo from "../images/noun_Eye.svg"
-import heart from "../images/noun_Heart.svg"
-import shop from "../images/noun_Shop.svg"
+import logo from "../../images/noun_Eye.svg"
+import heart from "../../images/noun_Heart.svg"
+import shop from "../../images/noun_Shop.svg"
 
 const Header = () => {
   return (
@@ -21,7 +21,6 @@ const Header = () => {
           <img src={shop} alt="little shop" className="header-icon" />
           Shop
         </Link>
-        <Link to="contact">Contact</Link>
       </nav>
     </header>
   )

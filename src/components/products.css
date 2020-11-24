@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 150px));
+  gap: 1em;
+  justify-content: center;
+}
+
+.productCard {
+  font-size: clamp(0.75rem, 2.5vw, 1rem);
+  text-align: center;
+}

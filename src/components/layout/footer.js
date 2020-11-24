@@ -1,13 +1,13 @@
 import React from "react"
 
-import logo from "../images/noun_Eye.svg"
+import logo from "../../images/noun_Eye.svg"
 
 export const Subscribe = () => {
   return (
     <div className="subscribe flex">
       <h3>Beauty Slogan?</h3>
       <form action="">
-        <label for="email">
+        <label htmlFor="email">
           <p>Sign up for Shop emails</p>
           <input type="email" />
           <button type="button" id="emailButton">

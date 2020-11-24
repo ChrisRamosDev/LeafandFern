@@ -9,15 +9,6 @@ export const query = graphql`
           id
           title
           description
-          images {
-            localFile {
-              childImageSharp {
-                fluid {
-                  srcSet
-                }
-              }
-            }
-          }
         }
       }
     }

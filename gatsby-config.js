@@ -7,7 +7,15 @@ module.exports = {
     author: `@crash7114`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/images`,
+        name: "images",
+      },
+    },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-shopify",
       options: {
@@ -24,6 +32,5 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {},
   ],
 }
