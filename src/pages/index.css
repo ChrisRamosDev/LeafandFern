@@ -3,6 +3,12 @@ body {
   min-width: 100vw;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container {
   max-width: 1500px;
   margin: 0 auto;

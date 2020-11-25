@@ -1,0 +1,19 @@
+.container.offers {
+  flex-direction: column;
+  max-width: 1100px;
+}
+
+.offer {
+  max-width: 90%;
+}
+
+@media (min-width: 980px) {
+  .container.offers {
+    flex-direction: row;
+    padding: 0 3rem;
+  }
+
+  .container.offers > * + * {
+    margin-left: 40px;
+  }
+}

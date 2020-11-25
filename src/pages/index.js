@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout/layout"
 import Products from "../components/products"
+import Offers from "../components/offers"
 
 import "./reset.css"
 import "./index.css"
@@ -16,6 +17,7 @@ const IndexPage = ({ data }) => {
       <h3 className="bannerH3">Welcome to the Shop!</h3>
       <Img fluid={hero} className="hero" />
       <Products products={products} />
+      <Offers />
     </Layout>
   )
 }

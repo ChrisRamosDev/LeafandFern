@@ -12,12 +12,6 @@ header {
   margin: 0;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .eye {
   max-width: 65px;
   margin-right: 10px;
@@ -49,7 +43,7 @@ li a:focus,
 footer {
   width: 100vw;
   padding: 1.5rem 2rem;
-  background-color: rgb(165, 165, 165);
+  background-color: rgb(211, 211, 211);
 }
 
 .footerHeader {
