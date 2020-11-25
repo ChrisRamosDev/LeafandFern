@@ -15,6 +15,17 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Leaf and Fern",
+        short_name: "leafandfern",
+        start_url: "/",
+        background_color: "#6b37bf",
+        theme_color: "#6b37bf",
+        icon: "src/images/myLogoish.png",
+      },
+    },
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-shopify",
