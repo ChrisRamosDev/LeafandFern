@@ -1,79 +1,128 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx, Flex, Label, Input, Box } from "theme-ui"
 
 import logo from "../../images/noun_Eye.svg"
 
 export const Subscribe = () => {
   return (
-    <div className="subscribe flex">
-      <h3>Beauty Slogan?</h3>
-      <form action="">
-        <label htmlFor="email">
-          <p>Sign up for Shop emails</p>
-          <input type="email" />
-          <button type="button" id="emailButton">
-            Sign Up
-          </button>
-        </label>
-      </form>
-    </div>
+    <Flex
+      sx={{
+        flexDirection: "column",
+        px: "4rem",
+        width: "100vw",
+        "@media (min-width: 740px)": {
+          maxWidth: 500,
+        },
+      }}
+    >
+      <h3 sx={{ my: 20 }}>Beauty Slogan?</h3>
+      <Box as="form" sx={{ mb: "1.5rem", "& > * + *": { mt: 21 } }}>
+        <Label htmlFor="email">Sign up for Shop emails</Label>
+        <Input type="email" sx={{ maxWidth: 350 }} />
+        <button type="button" sx={{ cursor: "pointer" }}>
+          Sign Up
+        </button>
+      </Box>
+    </Flex>
   )
 }
 
 const Footer = () => (
-  <footer>
-    <div className="container footerHeader flex">
-      <div className="flex">
-        <img src={logo} alt="eye" className="eye header-icon" />
-        <h2>The Shop</h2>
-      </div>
-    </div>
-    <div className="container menuGroup flex">
-      <div className="menus flex">
-        <ul className="footerMenu">
+  <footer sx={{ maxWidth: 1500, mx: "auto", mb: "1rem" }}>
+    <Flex
+      sx={{
+        width: "100%",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <img src={logo} alt="eye" sx={{ maxWidth: 60 }} />
+      <h2 sx={{ mx: 10, pb: 3, my: 0 }}>The Shop</h2>
+    </Flex>
+    <Flex
+      sx={{
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        "@media (min-width: 740px)": {
+          flexDirection: "row",
+          justifyContent: "space-between",
+        },
+      }}
+    >
+      <Flex
+        sx={{
+          ul: {
+            listStyle: "none",
+          },
+          "@media (min-width: 740px)": {
+            pl: "2rem",
+          },
+        }}
+      >
+        <ul>
           <li>
-            <h4>About Shop</h4>
+            <h4 sx={{ my: 0 }}>About Shop</h4>
           </li>
           <li>
-            <a href="http://localhost:8000">Link</a>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
           </li>
           <li>
-            <a href="http://localhost:8000">Link</a>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
           </li>
           <li>
-            <a href="http://localhost:8000">Link</a>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
           </li>
         </ul>
-        <ul className="footerMenu">
+        <ul>
           <li>
-            <h4>About Shop</h4>
+            <h4 sx={{ my: 0 }}>About Shop</h4>
           </li>
           <li>
-            <a href="http://localhost:8000">Link</a>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
           </li>
           <li>
-            <a href="http://localhost:8000">Link</a>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
           </li>
           <li>
-            <a href="http://localhost:8000">Link</a>
-          </li>
-        </ul>
-        <ul className="footerMenu">
-          <li>
-            <h4>About Shop</h4>
-          </li>
-          <li>
-            <a href="http://localhost:8000">Link</a>
-          </li>
-          <li>
-            <a href="http://localhost:8000">Link</a>
-          </li>
-          <li>
-            <a href="http://localhost:8000">Link</a>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
           </li>
         </ul>
-      </div>
+        <ul>
+          <li>
+            <h4 sx={{ my: 0 }}>About Shop</h4>
+          </li>
+          <li>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
+          </li>
+          <li>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
+          </li>
+          <li>
+            <a href="/" sx={{ cursor: "pointer" }}>
+              Link
+            </a>
+          </li>
+        </ul>
+      </Flex>
       <Subscribe />
-    </div>
+    </Flex>
   </footer>
 )
 
