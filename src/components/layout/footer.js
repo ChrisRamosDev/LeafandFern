@@ -28,7 +28,7 @@ export const Subscribe = () => {
 }
 
 const Footer = () => (
-  <footer sx={{ maxWidth: 1500, mx: "auto", mb: "1rem" }}>
+  <footer sx={{ maxWidth: 1500, mx: "auto", my: "1rem" }}>
     <Flex
       sx={{
         width: "100%",

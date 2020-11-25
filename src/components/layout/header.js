@@ -3,6 +3,7 @@ import { jsx, Flex } from "theme-ui"
 import { Link } from "gatsby"
 
 import logo from "../../images/noun_Eye.svg"
+import cart from "../../images/noun_cart.svg"
 
 const Header = () => {
   return (
@@ -46,6 +47,11 @@ const Header = () => {
         <Link to="shop" sx={{ mx: 10, fontSize: "27px" }}>
           Shop
         </Link>
+        <img
+          src={cart}
+          alt="shoppingCart"
+          sx={{ maxWidth: 40, mb: 0, ml: 10 }}
+        />
       </Flex>
     </Flex>
   )
