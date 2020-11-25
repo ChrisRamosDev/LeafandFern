@@ -6,7 +6,7 @@ import "./products.css"
 const products = props => {
   return (
     <>
-      <h1>Our Products</h1>
+      <h2>{props.heading}</h2>
       <div className="container grid">
         {props.products.map(product => {
           return (

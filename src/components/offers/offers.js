@@ -1,6 +1,6 @@
 import React from "react"
 
-import offer from "../images/offer.jpg"
+import offer from "../../images/offer.jpg"
 
 import "./offers.css"
 
