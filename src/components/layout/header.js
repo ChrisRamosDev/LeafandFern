@@ -44,7 +44,7 @@ const Header = () => {
         <Link to="" sx={{ mx: 10, fontSize: "27px" }}>
           Stores
         </Link>
-        <Link to="shop" sx={{ mx: 10, fontSize: "27px" }}>
+        <Link to="" sx={{ mx: 10, fontSize: "27px" }}>
           Shop
         </Link>
         <img
